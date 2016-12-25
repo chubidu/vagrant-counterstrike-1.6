@@ -1,0 +1,16 @@
+---
+vagrantfile-local:
+  vm:
+    box: ubuntu/trusty64
+    hostname: 'ubuntu-trusty64.local'
+    memory: '1024'
+    cpus: '1'
+    chosen_provider: virtualbox
+    network:
+      bridge: 'en4: Broadcom NetXtreme Gigabit Ethernet Controller'
+      forwarded_port:
+        forwardedPort1:
+          host: '9630'
+          guest: '22'
+  vagrant:
+    host: detect
