@@ -8,8 +8,9 @@
 
 ## Start your counterstrike 1.6 server
 ```
-1. vagrant ssh
-2. su csserver
-3. cd /home/csserver
-4. ./csserver start
+1. vagrant up
+2. vagrant ssh
+3. su csserver
+4. cd /home/csserver
+5. ./csserver start
 ```
