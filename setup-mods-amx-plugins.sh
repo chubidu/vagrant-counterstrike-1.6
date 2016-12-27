@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Install Quakesounds - https://forums.alliedmods.net/showthread.php?p=638940?p=638940
-sudo -u csserver -H sh -c "cp /vagrant/cstrike/cstrike/mods/quakesounds/quakesounds.amxx /home/csserver/serverfiles/cstrike/addons/amxmodx/plugins/; chmod +x /home/csserver/serverfiles/cstrike/addons/amxmodx/plugins/quakesounds.amxx"
+sudo -u csserver -H sh -c "cp /vagrant/cstrike/mods/quakesounds/quakesounds.amxx /home/csserver/serverfiles/cstrike/addons/amxmodx/plugins/; chmod +x /home/csserver/serverfiles/cstrike/addons/amxmodx/plugins/quakesounds.amxx"
 sudo -u csserver -H sh -c "cp /vagrant/cstrike/mods/quakesounds/quakesounds.txt /home/csserver/serverfiles/cstrike/addons/amxmodx/data/lang/; chmod +x /home/csserver/serverfiles/cstrike/addons/amxmodx/data/lang/quakesounds.txt"
 sudo -u csserver -H sh -c "unzip /vagrant/cstrike/mods/quakesounds/sound.zip -d /home/csserver/serverfiles/cstrike/sound/; chmod +x /home/csserver/serverfiles/cstrike/sound/qs/*"
 
